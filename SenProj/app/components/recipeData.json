@@ -1,0 +1,42 @@
+{
+    "RecipeID":
+    {
+        "0": "Sushi",
+        "1": "Spaghetti",
+        "2": "Porkchop"
+    },
+
+    "IngrID":
+    {
+        "Tuna": 1,
+        "Rice": 2,
+        "Wasabi": 3,
+        "Garlic": 4,
+        "Pasta": 5,
+        "SpSauce": 6,
+        "PorkchopI": 7,
+        "VegOil": 8
+    },
+
+    "Sushi": 
+    {
+        "Tuna": 1,
+        "Rice": 1,
+        "Wasabi": 1,
+        "Garlic": 1
+    },
+
+    "Spaghetti":
+    {
+        "Pasta": 16,
+        "SpSauce": 8,
+        "Garlic": 2
+    },
+
+    "Porkchop":
+    {
+        "PorkchopI": 1,
+        "Rice": 1,
+        "VegOil": 2
+    }
+}

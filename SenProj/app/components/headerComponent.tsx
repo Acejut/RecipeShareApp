@@ -1,0 +1,18 @@
+import React from 'react';
+import {Appbar} from 'react-native-paper';
+
+const HeaderComponent = (props: HeaderComponentParams) =>
+{
+    return(
+        <Appbar>
+            <Appbar.BackAction/>
+            <Appbar.Content title={props.title}/>
+        </Appbar>
+    );
+};
+
+interface HeaderComponentParams{
+    title: string;
+}
+
+export default HeaderComponent;
